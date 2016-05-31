@@ -37,7 +37,9 @@
           data: {
             c_email: c_email,
             c_name: c_name,
-            c_message: c_message
+            c_message: c_message,
+            c_number: c_number,
+            c_company: c_company
           },
           beforeSend: function(result) {
             $('#contactForm button').empty();
