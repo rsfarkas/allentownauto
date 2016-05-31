@@ -20,7 +20,7 @@
       var c_name = $('#name').val();
       var c_email = $('#email').val();
       var c_message = $('#message ').val();
-      var c_phone = $('#phone').val();
+      var c_number = $('#number').val();
       var c_company = $('#company ').val();
       var responseMessage = $('#contactForm .ajax-response');
 
@@ -38,7 +38,7 @@
             c_email: c_email,
             c_name: c_name,
             c_message: c_message,
-            c_phone: c_phone,
+            c_number: c_number,
             c_company: c_company
           },
           beforeSend: function(result) {
