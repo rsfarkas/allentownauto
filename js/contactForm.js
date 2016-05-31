@@ -19,9 +19,9 @@
 
       var c_name = $('#name').val();
       var c_email = $('#email').val();
-      var c_message = $('#message ').val();
-      var c_number = $('#number ').val();
-      var c_company = $('#company ').val();
+      var c_message = $('#message').val();
+      var c_phone = $('#phone').val();
+      var c_company = $('#company').val();
       var responseMessage = $('#contactForm .ajax-response');
 
       if (( c_name== '' || c_email == '' || c_message == '') || (!isValidEmailAddress(c_email) )) {
@@ -38,7 +38,7 @@
             c_email: c_email,
             c_name: c_name,
             c_message: c_message,
-            c_number: c_number,
+            c_phone: c_phone,
             c_company: c_company
           },
           beforeSend: function(result) {
